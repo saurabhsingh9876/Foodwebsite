@@ -1,0 +1,70 @@
+.ccart {
+  position: fixed;
+  top: 0;
+  right: 0;
+  float: left;
+  width: 340px; /* Adjusted width to 300px */
+  height: 780px;
+  color: #fff;
+  box-shadow: -1px 0 2px rgba(0, 0, 0, 0.1);
+  transition: transform 0.6s ease-in-out;
+  overflow-y: auto;
+  z-index: 1000;
+  padding: 20px;
+  border: 2px solid #fff;
+  background-color: #5358B3;
+}
+.subb{
+  margin: 20%;
+  padding: 13px;
+  width: 60%;
+  color: white;
+  background-color:  #33b249;
+  border: 2px solid #fff;
+  border-radius: 5px ;
+}
+
+h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 10px;
+  margin-top: 40px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input {
+  width: 100%; /* Adjusted input width to 100% to fit the container */
+  padding: 5px;
+  margin-bottom: 10px; /* Added margin-bottom for spacing */
+  border: 2px solid #fff;
+  /* Additional styling for input fields */
+  padding-left: 10px; /* Adjusted padding */
+  height: 30px;
+  border: 1px solid rgba(128, 128, 128, 0.518);
+  border-radius: 4px;
+  outline: none;
+  background-color: rgba(128, 128, 128, 0.074);
+  border: 1px solid #ccc;
+  font-size: 12px;
+  outline: none;
+}
+/* 
+button:hover {
+  background-color: #0056b3;
+  color: #fff;
+} */
+@media (max-width: 998px) {
+  .ccart{
+    width: 100%;
+  }
+ 
+  
+}

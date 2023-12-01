@@ -1,0 +1,11 @@
+.footer {
+  background-color: #ffffff; /* White background color */
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0px -1px 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow to the bottom */
+}
+
+.footer-content {
+  color: #333; /* Text color */
+  font-size: 14px;
+}

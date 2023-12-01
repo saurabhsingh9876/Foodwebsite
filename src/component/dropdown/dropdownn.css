@@ -1,0 +1,15 @@
+/* Override the color of the button */
+.custom-button {
+    background-color: blue;
+    color: #000;
+  }
+  
+  /* Add margin to the button */
+  .custom-button {
+    margin-left: 10px; /* Adjust the margin as needed */
+  }
+  #dropdown-basic{
+    background-color: transparent;
+    color: black;
+    border: none;
+  }

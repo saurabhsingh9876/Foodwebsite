@@ -1,0 +1,17 @@
+#root {
+  max-width: 1280px;
+  /* height: 100vw; */
+  top: 0;
+ /* box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.573); */
+  display: block;
+  /* display: inline; */
+  margin: 0 auto;
+  border-radius: 5px;
+  /* padding: 2rem; */
+  /* text-align: center; */
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #04152d;
+}

@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap");
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Titillium Web", sans-serif;
+}
+li{
+  list-style: none;
+}
+
+:root {
+	--mainColor: #29335c;
+	--mainColorLight: #5767aa;
+	--secondaryColor: #db2b39;
+	--textColor: #000;
+}
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	height: 80px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+	padding-left: 3.5rem;
+	background-color: #fff;
+	color: #000;
+	position: sticky;
+	top: 0;
+	z-index: 99;
+}
+
+
+
+.navmid{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 2rem;
+ 
+  margin-top: 2.1%;
+
+}
+
+.input {
+    width: 25rem;
+    padding: 19px;
+    border: 1px solid rgba(128, 128, 128, 0.518);
+    margin-left: 4%;
+    border-radius: 4px;
+    outline: none;
+    background-color: #fff;
+    color: #333;
+  }
+.cartn {
+  display: flex;
+  align-items: center;
+  margin-left: 40%;
+  width: 100px;
+  height: 40px;
+  border: 2px solid crimson;
+  padding-left: 23px;
+  border-radius: 4px;
+}
+nav a:hover {
+	color: var(--secondaryColor);
+}
+
+header .nav-btn {
+	padding: 3px;
+	cursor: pointer;
+	background: transparent;
+	border: none;
+	outline: none;
+	color: var(--textColor);
+	visibility: hidden;
+	opacity: 0;
+	font-size: 1.2rem;
+}
+
+header div,
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-left: 1rem;
+}
+
+@media only screen and (max-width: 1024px) {
+	header .nav-btn {
+		visibility: visible;
+		opacity: 1;
+	}
+
+	header nav {
+		position: fixed;
+		top: -100vh;
+		left: 0;
+		height: 100%;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 1.5rem;
+		background-color: var(--mainColor);
+		transition: 1s;
+	}
+
+	header .responsive_nav {
+		transform: translateY(100vh);
+	}
+
+	nav .nav-close-btn {
+		position: absolute;
+		top: 2rem;
+		right: 2rem;
+	}
+
+	nav a {
+		font-size: 1.5rem;
+	}
+}
+@media only screen and (max-width: 600px) {
+
+	.input{
+		width: 15rem;
+	}
+	.io{
+		display: none;
+	}
+}
+@media only screen and (max-width: 420px) {
+
+	.input{
+		width: 10rem;
+	}
+}
